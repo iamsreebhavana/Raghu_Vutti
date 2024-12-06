@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.494746bf.css",
+    "main.js": "/static/js/main.50c6970f.js",
+    "static/js/453.3c95a971.chunk.js": "/static/js/453.3c95a971.chunk.js",
+    "static/media/project_coupal_image.png": "/static/media/project_coupal_image.bcf2656d3af28cd64ddb.png",
+    "static/media/project_welder_image.png": "/static/media/project_welder_image.6f8837ba23e3c07c6635.png",
+    "static/media/project_chronicled_image.png": "/static/media/project_chronicled_image.da31ddbb60ef46d49a33.png",
+    "static/media/profile.jpeg": "/static/media/profile.87fa2ad4ec19ebd0d81b.jpeg",
+    "static/media/project_glc_image.png": "/static/media/project_glc_image.ad99ec1ac5124bd5b993.png",
+    "static/media/project_burkett_image.png": "/static/media/project_burkett_image.88ee8941fc6a8db6cdbc.png",
+    "static/media/www.png": "/static/media/www.297833d78476cdf61628.png",
+    "static/media/configuration.png": "/static/media/configuration.23bb64a4c1b01ab901b1.png",
+    "static/media/coding.png": "/static/media/coding.ad02d63870968fd4d1e7.png",
+    "static/media/logo.png": "/static/media/logo.43a7d710cb6923fd703f.png",
+    "static/media/hero_device.svg": "/static/media/hero_device.ca82e97c349a897082b6268dd7f8d733.svg",
+    "static/media/logo2.svg": "/static/media/logo2.0cdc995f89c2350a2225e468589d4534.svg",
+    "static/media/bootstraplogos.svg": "/static/media/bootstraplogos.e90245005032223aed0ae8dd5733bd3e.svg",
+    "static/media/logo3.svg": "/static/media/logo3.44942c4bfbc27222a1366dd57162ebb5.svg",
+    "static/media/technology.png": "/static/media/technology.d113726299dcb90e843c.png",
+    "static/media/share.png": "/static/media/share.1cfb888ed3eef44b1fe9.png",
+    "static/media/logo4.svg": "/static/media/logo4.410d315b8b5522c83150c96717baab30.svg",
+    "static/media/logo8.svg": "/static/media/logo8.a0259798efc4a1823691fad48588fec9.svg",
+    "static/media/logo1.svg": "/static/media/logo1.dcc5a297df6be3c2f34438399a5ebfbe.svg",
+    "static/media/logo6.svg": "/static/media/logo6.361ac83fc4181a92208c83f24a28ff03.svg",
+    "index.html": "/index.html",
+    "main.494746bf.css.map": "/static/css/main.494746bf.css.map",
+    "main.50c6970f.js.map": "/static/js/main.50c6970f.js.map",
+    "453.3c95a971.chunk.js.map": "/static/js/453.3c95a971.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.494746bf.css",
+    "static/js/main.50c6970f.js"
+  ]
+}
