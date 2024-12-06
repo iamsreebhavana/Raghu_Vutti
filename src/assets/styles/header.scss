@@ -1,0 +1,36 @@
+.headerContainer{
+    padding: 20px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // display: grid;
+    // grid-template-columns: 6fr 6fr;
+
+    & .logoSection{
+        & > img{
+            width: 50%;
+        }
+    }
+
+    & .navBar{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+
+        & > p{
+            letter-spacing: 0.2px;
+            font-size: 18px;
+            margin-right: 20px;
+            color: #141c3a;
+        }
+
+        & > button{
+            border: 2px solid #6E07F3;
+            color: #6E07F3;
+            padding: 7px 20px;
+            font-size: 17px;
+            border-radius: 25px;
+        }
+    }
+ 
+}

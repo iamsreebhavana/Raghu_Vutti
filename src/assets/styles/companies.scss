@@ -1,0 +1,21 @@
+.collaborationContainer{
+    margin-top: 150px;
+    & .heading{
+        & > h2{
+            font-size: 32px;
+            font-weight: 800;
+            margin: 20px 0;
+            color: #141c3a;
+        }
+    }
+    & .companies{
+        display: grid;
+        grid-template-columns: repeat(4,3fr);
+        column-gap: 50px;
+        margin: 80px 140px;
+
+        & > img{
+            width: 100%;
+        }
+    }
+}

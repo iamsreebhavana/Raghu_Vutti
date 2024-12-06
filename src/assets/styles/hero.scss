@@ -1,0 +1,40 @@
+.heroContainer{
+    display: block;
+    justify-content: center;
+
+    & > h2{
+        font-size: 40px;
+        font-weight: 800;
+        margin: 20px 0;
+        color: #141c3a;
+    }
+    & > p{
+        color: #141c3a;
+        font-size: 21px;
+        margin: 5px 0;
+    }
+
+    .profileSection{
+        width: 13%;
+        margin: 60px auto;  
+        overflow: hidden;
+
+        & > img{
+            border: 1px solid transparent;
+            border-radius: 50%;
+            width: 100%;
+        }
+
+    }
+
+    .bannerSection{
+        width: 50%;
+        margin: 80px auto;  
+        overflow: hidden;
+
+        & > img{
+            width: 100%;
+        }
+
+    }
+}
