@@ -5,13 +5,16 @@ const About = () => {
   return (
     <div className="aboutContainer">
       <div className="about_intro">
-        <h2>Hi, I’m Matt. Nice to meet you.</h2>
+        <h2>Hi, I’m Raghu. Nice to meet you.</h2>
         <p>
-          Since beginning my journey as a freelance designer 12 years ago, I've
-          done remote work for agencies, consulted for startups, and
-          collaborated with talented people to create digital products for both
-          business and consumer use. I'm quietly confident, naturally curious,
-          and perpetually working on improving my chops.
+          "With over 8 years of experience as a Data Infrastructure Engineer, I
+          have designed and implemented scalable systems for enterprises,
+          optimized data platforms for startups, and collaborated with diverse
+          teams to build robust, high-performance data solutions. I specialize
+          in creating reliable infrastructure that enables actionable insights
+          and drives business growth. Naturally curious and detail-oriented, I
+          thrive on solving complex challenges while continuously improving the
+          performance, scalability, and resilience of data systems."
         </p>
       </div>
     </div>

@@ -6,8 +6,8 @@ import "../assets/styles/hero.scss";
 const Hero = () => {
   return (
     <div className="heroContainer">
-      <h2>Designer, Frontend Developer & Mentor</h2>
-      <p>I design and code beautifully simple things, and I love what I do.</p>
+      <h2>Lead Data Infrastructure Engineer</h2>
+      <p>Lead the design, implementation and optimization of infrastructure and I love what I do.</p>
       <div className="profileSection">
         <img src={profile} alt="no-img" />
       </div>

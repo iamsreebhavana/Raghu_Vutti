@@ -1,0 +1,25 @@
+.testimonialContainer{
+    max-width: 600px; 
+    margin: auto; 
+    text-align: center;
+}
+
+.swiperSlider{
+    margin: 20px;
+
+    & > img{
+        border-radius: 50%;
+        width: 80px;
+        height: 80px;
+        object-fit: cover;
+        margin-bottom: 10px;
+    }
+
+    & > p{
+
+    }
+
+    & > h4{
+        
+    }
+}

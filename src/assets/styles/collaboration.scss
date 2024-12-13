@@ -1,0 +1,36 @@
+.collaboratingContainer{  
+    margin: 10px auto;
+    padding: 100px 450px;
+    margin: 10px auto;
+
+    & > h2{
+        font-size: 32px;
+    }
+
+    & > p{
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+    & > button{
+        color: #6E07F3;
+        border: 2px solid #6E07F3;
+        border-radius: 25px;
+        padding: 12px 35px;
+        font-size: 18px;
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+        margin: 60px auto;
+        justify-content: center;
+        background-color: white;
+        letter-spacing: 0.3px;
+
+        & > span{
+            margin-right: 10px;
+            display: flex;
+            & > img{
+                width: 28px;
+            }
+        }
+    }
+}
