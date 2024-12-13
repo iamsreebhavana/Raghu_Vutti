@@ -1,26 +1,19 @@
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
-import About from "./components/About";
-import Collaboration from "./components/Collaboration";
-import Companies from "./components/Companies";
-import Experience from "./components/Experience";
+import CollaborationForm from "./components/CollaborationForm";
+import Home from "./Home";
 import Header from "./components/Header";
-import Hero from "./components/Hero";
-import Projects from "./components/Projects";
-import RecentWorks from "./components/RecentWorks";
-import TestimonialCarousel from "./components/Testimonial";
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Hero />
-      <About />
-      <Experience />
-      <RecentWorks />
-      <Companies />
-      <Projects />
-      <Collaboration />
-      <TestimonialCarousel />
+      <Router>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/inquiry" element={<CollaborationForm />} />
+        </Routes>
+      </Router>
     </div>
   );
 }

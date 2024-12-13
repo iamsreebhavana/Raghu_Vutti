@@ -2,6 +2,15 @@
     max-width: 600px; 
     margin: auto; 
     text-align: center;
+
+    & > h2{
+        font-size: 32px;
+    }
+
+    & > p{
+        font-size: 18px;
+        letter-spacing: 0.3px;
+    }
 }
 
 .swiperSlider{
@@ -16,10 +25,43 @@
     }
 
     & > p{
-
+        font-size: 22px;
+        font-family: fantasy;
+        letter-spacing: 0.3px;
+        margin: 10px 0 40px 0;
     }
 
     & > h4{
-        
+        font-size: 18px;
+        font-weight: 600;
+        margin: 0px 0 0 0;
     }
+
+    & > h5{
+        font-size: 15px;
+        letter-spacing: 0.3px;
+        margin: 7px 0 0 0;
+        font-weight: 400;
+    }
+   
 }
+
+.swiper-pagination {
+    position: relative; /* Override Swiper's default absolute position */
+    transform: translateY(10px); 
+  }
+
+  .swiper-pagination-bullet {
+    border: 1px solid gray;
+    width: 10px; /* Increase width */
+    height: 10px; /* Increase height */
+    background-color: white; /* Custom dot color */
+    opacity: 0.4; /* Default transparency */
+    transition: all 0.3s ease; /* Smooth size transition */
+  }
+  
+  .swiper-pagination-bullet-active {
+    background-color: #6E07F3;; /* Active dot color */
+    opacity: 1; /* Full opacity for active dot */
+    transform: scale(1.3); /* Make active dot larger */
+  }

@@ -1,0 +1,26 @@
+.footerContainer{
+    background-color: #6E07F3;
+    padding: 50px 50px 70px 50px;
+    margin-top: 50px;
+
+    & > h2{
+        color: white;
+    }
+    
+    & > img{
+        margin: 40px;
+        width: 7%;
+        border: 1px solid transparent;
+        border-radius: 100px;
+    }
+
+    & .iconsContainer{
+        & > img{
+            width: 40px;
+            margin: 10px;
+            padding: 5px;
+            border: 1px solid white;
+            border-radius: 5px;
+        }
+    }
+}

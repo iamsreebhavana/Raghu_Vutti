@@ -4,6 +4,8 @@ import "swiper/css"; // Import Swiper styles
 import "swiper/css/pagination"; // Import pagination styles
 import { Pagination } from "swiper/modules"; // Import Pagination module
 import { testimonials } from "../utils/testimonial_mock";
+import "../assets/styles/testimonial.scss";
+
 
 const TestimonialCarousel = () => {
   return (
@@ -23,7 +25,7 @@ const TestimonialCarousel = () => {
               <img src={testimonial.image} alt={testimonial.name} />
               <p>"{testimonial.feedback}"</p>
               <h4>{testimonial.name}</h4>
-              <p>{testimonial.position}</p>
+              <h5>{testimonial.position}</h5>
             </div>
           </SwiperSlide>
         ))}
